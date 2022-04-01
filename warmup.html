@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="main.css">
+        <title>Warmup</title>
+    </head>
+    <body>
+        <div>
+            <h2>
+                Game starting in
+            </h2>
+            <h2>
+                5 seconds...
+            </h2>
+            <div align="center">
+            </div>
+        </div>
+        <div style="background-color: #8BABCF;">
+            <hr>
+            <!--<center style="padding-top: 50%;">
+                <p>The warmup will show here.</p>
+                <button onclick="window.location.href='loading.html'" class="btn">SKIP</button>
+            </center>-->
+            <center>
+                <img src="Warmup.gif" height="610px">
+            </center>
+        </div>
+        <script>
+        	var delayInMilliseconds = 5000;
+
+        	setTimeout(function() {
+            	window.location.href='loading.html'
+            	//your code to be executed after 1 second
+        	}, delayInMilliseconds);
+
+    	</script>
+    </body>
+</html>

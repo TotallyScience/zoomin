@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="main.css">
+        <title>Game</title>
+    </head>
+    <body>
+        <h2>
+            Defense Time!
+        </h2>
+        
+        <div style="background-color: #646264;">
+            <hr>
+            <!--<center style="padding-top: 50%;">
+            <p>The game will show here.</p>
+            <button onclick="window.location.href='gameover.html'" class="btn">SKIP</button>
+        	</center>-->
+        	<center>
+            	<img src="defence.gif" LOOP=FALSE height="610px">
+        	</center>
+        </div>
+        
+        <script>
+        	var delayInMilliseconds = 16000;
+
+        	setTimeout(function() {
+            	window.location.href='gameover.html'
+            	//your code to be executed after 1 second
+        	}, delayInMilliseconds);
+
+    	</script>
+    </body>
+</html>
